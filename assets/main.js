@@ -10,8 +10,11 @@ Scrivetevi le 5 fasi, poi createvi dello pseudo codice per ciascuna fase e proce
  */
 
 // Preparazione
+// Scrivere numeri da 1 a 100 con loop for;
+// Creare blocchi if per i numeri divisibili per 3, 5, 3 e 5;
 
 // Raccolta Dati
+// Definire criteri di divisibilità nei blocchi if;
 
 // Elaborazione Codice
 
