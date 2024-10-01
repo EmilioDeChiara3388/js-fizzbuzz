@@ -16,14 +16,24 @@ let divisibleByThree = "Fizz";
 let divisibleByFive = "Buzz";
 let divisibleByThreeAndFive = "FizzBuzz";
 
-for ( let i = 1; i <= 100; i++){
-    console.log(i);
-}
+
 // Raccolta Dati
 // Definire criteri di divisibilità nei blocchi if;
 // i % 3 == 0;
 // i % 5 == 0;
 // i % 3 == 0 && i % 5 == 0;
 // Elaborazione Codice
-
+for ( let i = 1; i <= 100; i++){
+    /* console.log(i); */
+    if (i % 3 == 0){
+        console.log(divisibleByThree);
+    } else if (i % 5 == 0){
+        console.log(divisibleByFive);
+    }  else if (i % 3 == 0 && i % 5 == 0){
+        console.log(divisibleByThreeAndFive);
+    } else {
+        console.log(i);
+        
+    }
+}
 // Output
