@@ -14,7 +14,7 @@ Scrivetevi le 5 fasi, poi createvi dello pseudo codice per ciascuna fase e proce
 // Creare blocchi if per i numeri divisibili per 3, 5, 3 e 5;
 let divisibleByThree = "Fizz";
 let divisibleByFive = "Buzz";
-let divisibleByThreeAndFive = "FizzBuzz";
+let divisibleByBoth = "FizzBuzz";
 
 
 // Raccolta Dati
@@ -24,16 +24,15 @@ let divisibleByThreeAndFive = "FizzBuzz";
 // i % 3 == 0 && i % 5 == 0;
 // Elaborazione Codice
 for ( let i = 1; i <= 100; i++){
-    /* console.log(i); */
-    if (i % 3 == 0){
+    
+    if (i%3 == 0 && i%5 == 0){
+        console.log(divisibleByBoth);
+    } else if (i % 3 == 0){
         console.log(divisibleByThree);
-    } else if (i % 5 == 0){
+    }  else if (i % 5 == 0){
         console.log(divisibleByFive);
-    }  else if (i % 3 == 0 && i % 5 == 0){
-        console.log(divisibleByThreeAndFive);
     } else {
         console.log(i);
-        
     }
 }
 // Output
